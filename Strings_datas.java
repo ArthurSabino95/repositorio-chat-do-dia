@@ -7,23 +7,9 @@ import java.util.Locale;
 public class Strings_datas {
 
      public static void main(String[] args) throws Exception {
+               
 
-
-      //  String nome = "Arthur";
-     //       System.out.println(nome.toUpperCase());  // letras MAIUSCULAS
-    //        System.out.println(nome.toLowerCase());  // letra Minisculas
-       //     System.out.println(nome.length());
-
-
-   //         String nomeOutro = "arthur";
-
-      //      System.out.println(nome.equalsIgnoreCase(nomeOutro));   //  COMPARAR VARIAVEL MAISCULO OU MINISCULO equals / equalsIgnoreCase
-
-
-        // Olá, {nome}. hoje é {dd/mm/aaaa}, BOM DIA
-        //FAZER import java.time.localdate;
-
-        String nome = "Arthur";
+        String nome = "Arthur";   // <------ COLOQUE SEU NOME.
 
         LocalDate hoje = LocalDate.now();
         Locale brasil = new Locale("pt", "BR");
