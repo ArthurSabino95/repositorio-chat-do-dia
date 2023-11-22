@@ -36,8 +36,6 @@ public class Strings_datas {
 
         }
 
-
-
      }
     
 }
